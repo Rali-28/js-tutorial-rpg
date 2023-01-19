@@ -17,3 +17,17 @@ let inventory = ["stick"];
 
 /* End Stats Variables */
 
+/* Element Selectors */
+
+const btnStore = document.querySelector("#btnStore");
+const btnCave = document.querySelector("#btnCave");
+const btnDragon = document.querySelector("btnDragon");
+const text = document.querySelector("#text");
+const xpTxt = document.querySelector("#xpTxt");
+const healthTxt = document.querySelector("#healthTxt");
+const goldTxt = document.querySelector("#goldTxt");
+const monsterStats = document.querySelector("#monsterStats");
+const monsterNameTxt = document.querySelector("#monsterName");
+const monsterHealthTxt = document.querySelector("#monsterHealth");
+
+/* End Element Selectors */
