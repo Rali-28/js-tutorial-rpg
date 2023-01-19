@@ -19,9 +19,9 @@ let inventory = ["stick"];
 
 /* Element Selectors */
 
-const btnStore = document.querySelector("#btnStore");
-const btnCave = document.querySelector("#btnCave");
-const btnDragon = document.querySelector("btnDragon");
+const btn1 = document.querySelector("#btn1");
+const btn2 = document.querySelector("#btn2");
+const btn3 = document.querySelector("#btn3");
 const text = document.querySelector("#text");
 const xpTxt = document.querySelector("#xpTxt");
 const healthTxt = document.querySelector("#healthTxt");
@@ -31,3 +31,23 @@ const monsterNameTxt = document.querySelector("#monsterName");
 const monsterHealthTxt = document.querySelector("#monsterHealth");
 
 /* End Element Selectors */
+
+/* Initialize Button Functions */
+
+btn1.onclick = goStore;
+btn2.onclick = goCave;
+btn3.onclick = fightDragon; 
+
+function goStore() {
+    console.log("At Store")
+}
+
+function goCave() {
+    console.log("At Cave");
+}
+
+function fightDragon() {
+    console.log("Fighting the Dragon");
+}
+
+/* End Button Functions */
