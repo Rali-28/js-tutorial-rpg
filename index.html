@@ -14,14 +14,14 @@
     <!-- Main Div Container -->
     <div id="game">
 
-        <!-- Player Stats Container -->
+        <!-- PLayer's Stats Container -->
         <div id="stats">
 
             <!-- Player's XP -->
             <span class="stat">
                 XP: 
                 <strong>
-                    <span id="xpText">0</span>
+                    <span id="xpTxt">0</span>
                 </strong>
             </span>
             <!-- End XP -->
@@ -29,21 +29,62 @@
             <!-- Player Health -->
             <span class="stat">
                 Health: 
-                <span id="healthText">100</span>
+                <strong>
+                    <span id="healthTxt">100</span>
+                </strong> 
             </span>
             <!-- End Health -->
 
             <!-- Player's Gold -->
             <span class="stat">
                 Gold:
-                <span id="goldText">
-                    50
-                </span>
+                <strong>
+                    <span id="goldTxt">50</span>
+                </strong>  
             </span>
             <!-- End Gold -->
-            
+
         </div>
-        <!-- End Player Stats -->
+        <!-- End Player's Stats -->
+
+        <!-- Button Controls -->
+        <div>
+
+            <!-- Go to Store Button -->
+            <button id="btnStore">Go to store</button>
+
+            <!-- Go to Cave Button -->
+            <button id="btnCave">Go to cave</button>
+
+            <!-- Fight Dragon Button -->
+            <button id="btnDragon">Fight Dragon</button>
+
+        </div>
+        <!-- End Button Controls -->
+
+        <!-- Monster Stats -->
+        <div id="monsterStats">
+
+            <!-- Monster Name -->
+            <span class="stat">
+                Monster Name:
+                <strong>
+                    <span id="monsterName"></span>
+                </strong>
+            </span>
+            <!-- End Monster Name -->
+
+            <!-- Monster Health -->
+            <span class="stat">
+                Health: 
+                <strong>
+                    <span id="monsterHealth"></span>
+                </strong>
+            </span>
+            <!-- End Monster Health -->
+
+        </div>
+        <!-- End Monster Stats -->
 
     </div>
     <!-- End Main Div -->
