@@ -4,12 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RPG - Dragon Repeller</title>
 
+    <!-- External CSS Source -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Main Div Container -->
+    <div id="game">
+
+        <!-- Player Stats Container -->
+        <div id="stats">
+
+            <!-- Player's XP -->
+            <span class="stat">
+                XP: 
+                <strong>
+                    <span id="xpText">0</span>
+                </strong>
+            </span>
+            <!-- End XP -->
+            
+            <!-- Player Health -->
+            <span class="stat">
+                Health: 
+                <span id="healthText">100</span>
+            </span>
+            <!-- End Health -->
+
+            <!-- Player's Gold -->
+            <span class="stat">
+                Gold:
+                <span id="goldText">
+                    50
+                </span>
+            </span>
+            <!-- End Gold -->
+            
+        </div>
+        <!-- End Player Stats -->
+
+    </div>
+    <!-- End Main Div -->
     
+    <!-- External Javascript Source -->
     <script src="script.js"></script>
 </body>
 </html>
